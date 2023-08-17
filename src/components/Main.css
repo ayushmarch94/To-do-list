@@ -62,8 +62,11 @@
 
 .list{
     display: flex;
-    justify-content: center;
 
+}
+
+.list span{
+    margin: 20px;
 }
 
 ul {
@@ -86,11 +89,13 @@ ul {
     list-style: none;
     color: slategray;
     font-size: 20px;
+
 }
 
-.list img{
-    filter: hue-rotate(190deg) saturate(8);
+/* .list img{
+    filter: hue-rotate(270deg);
 }
 .list img:hover{
     filter: hue-rotate(0deg) saturate(8);
-}
+
+} */

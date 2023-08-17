@@ -40,15 +40,8 @@ export default function Main() {
             {Item.map((itemval, index) => {
               return (
                 <li key={index}>
-                  <span
-                    onClick={() => {
-                      deleteItem(index);
-                    }}
-                  >
-                    <img
-                      src={require("../Images/delete-button.png")}
-                      width={30}
-                    />
+                  <span onClick={() => {deleteItem(index);}}>
+                    <img src={require("../Images/delete-button.png")} width={30}/>
                   </span>
                   {itemval}
                 </li>
